@@ -18,11 +18,14 @@ Para realizar esta practica, he generado 4 endpoints que son los siguientes
 
 1. GET /verTardis/:_id : Con ello, veremos todos los Tardis que se han generado en la base de datos con el _id correspondiente
 2. POST /crearTardis : Creación de Tardis. Para ello, dejaré un ejemplo de la creación de uno de ellos para dar sencillez al usuario
+   
    {
   "_id": "60d6a2c4f0aeb10f20d7358d",
+
   "dimensiones": [
     {
       "_id": "60d6a2c4f0aeb10f20d7358e",
+      
       "planetas": [
         {
           "_id": "60d6a2c4f0aeb10f20d7358f",
@@ -34,19 +37,24 @@ Para realizar esta practica, he generado 4 endpoints que son los siguientes
       ]
     }
   ],
+  
   "planetas": [
     "60d6a2c4f0aeb10f20d7358e"
   ],
+  
   "personas": [
     "60d6a2c4f0aeb10f20d73590",
     "60d6a2c4f0aeb10f20d73591"
   ],
+  
   "camuflaje": "Azul",
+  
   "regeneracion": 12,
+  
   "anioActual": 2023
 }
 
-3. PUT /actualizarTardis/:_id : Actualiza un tardis ya existente en la base de datos.
-4. DELETE /borrarTardis/:_id: Borra un tardis de la basede datos
+4. PUT /actualizarTardis/:_id : Actualiza un tardis ya existente en la base de datos.
+5. DELETE /borrarTardis/:_id: Borra un tardis de la basede datos
 
 Esta practica la he desarrollado usando como bases de datos mongo, empleando mongoose
